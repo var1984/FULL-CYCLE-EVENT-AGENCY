@@ -270,6 +270,7 @@ body {
   margin-top: 83px;
   margin-bottom: 102px;
   background-color: #ffcb46;
+  filter: blur(76px);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
