@@ -267,21 +267,24 @@ body {
   z-index: 7;
   width: 578px;
   height: 578px;
-  margin-top: 83px;
-  margin-bottom: 102px;
+  margin: 83px auto 102px;
   background-color: #ffcb46;
-  filter: blur(76px);
+  filter: blur(20px);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  z-index: 5;
+  -webkit-filter: blur(20px);
+}
+.circle__text {
+  right: 483px;
+  bottom: 107px;
+  position: absolute;
+  z-index: 100;
 }
 .circle__text svg {
-  position: absolute;
-  right: 40px;
-  bottom: 32px;
-  z-index: 10;
   animation: rotate 10s linear infinite;
   -webkit-animation: rotate 10s linear infinite;
 }
@@ -341,9 +344,9 @@ body {
     width: 482px;
     height: 482px;
   }
-  .circle__text svg {
-    right: 30px;
-    bottom: -4px;
+  .circle__text {
+    right: 312px;
+    bottom: 99px;
   }
 }
 @media (max-width: 768px) {
@@ -370,6 +373,10 @@ body {
   .content__text-botom {
     margin-top: 120px;
   }
+  .circle__text {
+    right: 312px;
+    bottom: 99px;
+  }
 }
 @media (max-width: 414px) {
   .container {
@@ -393,9 +400,9 @@ body {
     margin-top: 120px;
     width: 291px;
   }
-  .circle__text svg {
-    right: -4px;
-    bottom: -23px;
+  .circle__text {
+    right: 88px;
+    bottom: -5px;
   }
   .marquee {
     left: -197px;
@@ -434,5 +441,9 @@ body {
   }
   .content__title h1 {
     font-size: 34px;
+  }
+  .circle__text {
+    right: 61px;
+    bottom: -18px;
   }
 }
